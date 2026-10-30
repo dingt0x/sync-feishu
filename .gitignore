@@ -1,0 +1,52 @@
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 测试 / 类型检查 / lint 缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---- 编辑器 ----
+.idea/
+.vscode/
+*.swp
+
+# ---- 本项目：密钥和敏感数据 ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 同步脚本导出的飞书用户数据（含姓名、邮箱等个人信息）
+feishu_users.json
+*.dump.json
